@@ -7,6 +7,8 @@ export function extend(obj, props) {
 	return obj;
 }
 
+export const slice = Array.prototype.slice;
+
 /** Call a function asynchronously, as soon as possible.
  *	@param {Function} callback
  */
